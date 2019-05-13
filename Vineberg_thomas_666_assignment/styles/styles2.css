@@ -1,0 +1,96 @@
+#ssPic {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#ssPic img {
+    margin-left: 20px;
+    padding-right: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#ssPagination li {
+    display: inline-block;
+}
+
+#tabDescription {
+    width: 620px;
+    height: 220px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#tabbedNav {
+    margin: 0;
+    padding: 3px 0px;
+    width: 100%;
+    list-style: none;
+}
+
+#tabbedNav li {
+    display: inline;
+    background: gray;
+    border: 1px solid green;
+    border-bottom: 0;
+    margin-right: 2px;
+    padding: 3px;
+    color: aqua;
+}
+
+#tabbedNav a {
+    color: bisque;
+    text-decoration: none;
+}
+
+#tabbedNav li a:hover {
+    color: white;
+}
+
+#tabbedNav li.current {
+    background: red;
+    padding-bottom: 4px;
+}
+
+#accordionContent {
+    padding: 140px 70px 30px 100px;
+}
+
+#accordion {
+    width: 630px;
+}
+
+#accordion li {
+    background-color: orange;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-bottom: 2px;
+    padding: 4px 8px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#accordion li ul {
+    padding: 0px;
+    margin: 10px 0 0 0;
+}
+
+#accordion li li {
+    background: none;
+    color: red;
+    font-weight: normal;
+    height: 150px;
+}
+
+#accordion li:hover {
+    color: black;
+    background-color: yellow;
+}
+
+#accordion li ul li:hover {
+    background: white url(none);
+    cursor: default;
+}
